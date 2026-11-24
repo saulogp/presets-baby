@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+node_modules/
+# audio recordings of the user's playing and experiment logs
+docs/captures/
+# not a flash dump (see backup/README.md) and its log
+backup/*NOT_A_FLASH_DUMP*
+backup/dump.log
