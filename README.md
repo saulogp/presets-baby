@@ -33,6 +33,8 @@ When the pedal is power-cycled, it goes back to its own saved presets.
 | `app/tests/protocol.test.mjs` | JS protocol tests (`cd app && npm test`) |
 | `app/tests/hw-smoke.mjs` | Runs `app/js/device.js` against the real pedal from Node (writes back identical bytes) |
 | `tools/make_icons.py` | Generates the PWA icons |
+| `tools/bridge.sh` | Bridges an Android phone in USB "MIDI" mode to the pedal through this PC (`aconnect`), for testing without an OTG adapter |
+| `tools/calibrate.py`, `tools/mute_probe.py` | Measure the effect of preset bytes from the pedal's USB audio (see `docs/calibration.md`) |
 | `backup/` | Original presets read before any write |
 
 ## Safety rule
