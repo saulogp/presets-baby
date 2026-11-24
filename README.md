@@ -1,5 +1,7 @@
 # babycube: preset banks for the Cube Baby (no firmware change)
 
+**App:** https://saulogp.github.io/presets-baby/ (Chrome on Android/desktop)
+
 The Cube Baby (Cuvave/M-VAVE) stores only 3 presets (A/B/C). This project keeps
 an unlimited library of presets on the phone and loads one **bank of 3** at a
 time into the pedal's **RAM** over USB MIDI. Nothing is ever written to flash.
